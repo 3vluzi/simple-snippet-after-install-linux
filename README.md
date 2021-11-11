@@ -116,6 +116,12 @@ usage:
 `wget -r -np -R "index.html*" -e robots=off  --no-parent https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/`
 
 # Developer Must Have
+- python
+https://www.python.org/downloads/
+
+- JupyterBook
+https://jupyter.org/install
+
 - XAMPP/LAMPP
 https://www.apachefriends.org/download.html
 
