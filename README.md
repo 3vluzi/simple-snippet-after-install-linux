@@ -1,7 +1,4 @@
-# Simple Snippet
-
-## Download all content in remote folder
-`wget -r -np -R "index.html*" -e robots=off  --no-parent https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/`
+# Simple Snippet After Linux Installation
 
 ## Fix Corrupted install 
 `sudo dpkg --configure -a`
@@ -114,3 +111,6 @@ usage:
 `import ascii_magic`\
 `my_art = ascii_magic.from_image_file('images/moon.jpg')`\
 `ascii_magic.to_terminal(my_art)`\
+
+## Download all content in remote folder
+`wget -r -np -R "index.html*" -e robots=off  --no-parent https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/`
