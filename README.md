@@ -19,7 +19,7 @@
 ## Make executable
 `sudo chmod +x namafile`
 
-## Owener file 
+## Own file 
 `sudo chown -R username:username FOLDERNAME`
 
 ## Install Win Font
