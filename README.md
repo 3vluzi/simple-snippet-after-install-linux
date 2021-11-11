@@ -2,3 +2,115 @@
 
 ## Download all content in remote folder
 `wget -r -np -R "index.html*" -e robots=off  --no-parent https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/`
+
+## Fix Corrupted install 
+`sudo dpkg --configure -a`
+
+## Remove Bad SOftware
+`sudo apt-get remove --purge package_name`
+
+## Install pip3
+`python3 get-pip.py`\
+`sudo apt install python3-pip`
+
+## Install Paket Module
+`pip3 install NAMAPAKET ##find in https://pypi.org/`
+
+## Install deb file 
+`sudo apt install ./namafile.deb`
+
+## Make executable
+`sudo chmod +x namafile`
+
+## Owener file 
+`sudo chown -R username:username FOLDERNAME`
+
+## Install Win Font
+`sudo add-apt-repository multiverse`\
+`sudo apt update && sudo apt install ttf-mscorefonts-installer`\
+`sudo fc-cache -f -v`
+
+## Install Filezilla
+`sudo apt install filezilla`
+
+## Install Screen Recorder
+`sudo apt install simplescreenrecorder`
+
+## install codec
+`sudo apt install ubuntu-restricted-extras`
+
+## install github desktop GUI 
+`wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo tee /etc/apt/trusted.gpg.d/shiftkey-desktop.asc > /dev/null`\
+`sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftkey-desktop.list'`\
+`sudo apt-get update`\
+`sudo apt install github-desktop`
+
+## ffmepg install
+`sudo apt-get clean ; sudo apt-get update ; sudo apt-get check ; sudo apt-get purge ffmpeg* -y ; sudo apt-get autoremove -y ; sudo apt-get -f satisfy ffmpeg -y`\
+source: https://forum.linuxconfig.org/t/ffmpeg-solve-unmet-dependencies/5356
+
+## Install  VLC
+`sudo apt install vlc`\
+`sudo apt install vlc-plugin-access-extra libbluray-bdj libdvdcss2`\
+`sudo dpkg-reconfigure libdvd-pkg`
+
+## Optional Install VLC Plugin
+`vlc-plugin-bittorrent`\
+Bittorrent plugin for VLC
+
+`vlc-plugin-fluidsynth`\
+FluidSynth plugin for VLC
+
+`vlc-plugin-jack`\
+JACK audio plugins for VLC
+
+`vlc-plugin-notify`\
+LibNotify plugin for VLC
+
+`vlc-plugin-qt`\
+multimedia player and streamer (Qt plugin)
+
+`vlc-plugin-samba`\
+Samba plugin for VLC
+
+`vlc-plugin-skins2`\
+multimedia player and streamer (Skins2 plugin)
+
+`vlc-plugin-svg`\
+SVG plugin for VLC
+
+`vlc-plugin-video-output`\
+multimedia player and streamer (video output plugins)
+
+`vlc-plugin-video-splitter`\
+multimedia player and streamer (video splitter plugins)
+
+`vlc-plugin-visualization`\
+multimedia player and streamer (visualization plugins)
+
+`vlc-plugin-vlsub`\
+VLC extension to download subtitles from opensubtitles.org
+
+## Install Whois
+`sudo apt install whois`
+
+## Install nmap
+sudo apt install nmap
+
+## install git
+`sudo apt install git`
+
+## add kali repo 
+`sudo sh -c "echo 'deb https://http.kali.org/kali kali-rolling main non-free contrib' > /etc/apt/sources.list.d/kali.list"`\
+`sudo apt update`
+
+## SSH import mysql
+`mysql -u USERNAME -p DBNAME < SOURCE_IMPORTED.sql`
+
+
+## ASCII Art 
+`pip3 install ascii_magic`\
+usage: 
+`import ascii_magic`\
+`my_art = ascii_magic.from_image_file('images/moon.jpg')`\
+`ascii_magic.to_terminal(my_art)`\
