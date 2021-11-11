@@ -114,3 +114,23 @@ usage:
 
 ## Download all content in remote folder
 `wget -r -np -R "index.html*" -e robots=off  --no-parent https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/`
+
+# Developer Must Have
+
+# XAMPP/LAMPP
+https://www.apachefriends.org/download.html
+
+# Filezilla 
+https://filezilla-project.org/download.php?type=client
+
+# Visual Studio Code
+https://code.visualstudio.com/download
+
+# Android Studio
+https://developer.android.com/studio
+
+# Github Linux Desktop
+https://github.com/shiftkey/desktop/tree/release-2.9.4-linux1
+
+# Etcher Bootable USB Maker
+https://www.balena.io/etcher/
