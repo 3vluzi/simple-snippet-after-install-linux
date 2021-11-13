@@ -88,6 +88,9 @@ multimedia player and streamer (visualization plugins)
 `vlc-plugin-vlsub`\
 VLC extension to download subtitles from opensubtitles.org
 
+## Install pytube
+`pip3 install pytube`
+
 ## Install Whois
 `sudo apt install whois`
 
