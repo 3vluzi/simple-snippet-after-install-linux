@@ -90,6 +90,7 @@ VLC extension to download subtitles from opensubtitles.org
 
 ## Install pytube
 `pip3 install pytube`
+GUI https://stackoverflow.com/questions/67416714/pytube-set-file-location-changes-to-working-directory
 
 ## Install Whois
 `sudo apt install whois`
