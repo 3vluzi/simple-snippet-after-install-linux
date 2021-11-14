@@ -5,7 +5,8 @@
 
 ## Remove Bad SOftware
 `sudo apt-get remove --purge package_name`
-
+## Add Video background Terminal
+`sudo apt install terminology`
 ## Install pip3
 `python3 get-pip.py`\
 `sudo apt install python3-pip`
