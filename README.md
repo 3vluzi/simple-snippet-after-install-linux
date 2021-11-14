@@ -16,6 +16,9 @@
 ## Install deb file 
 `sudo apt install ./namafile.deb`
 
+## Add PATH
+`sudo nano /etc/environment`
+
 ## Make executable
 `sudo chmod +x namafile`
 
