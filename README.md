@@ -1,5 +1,8 @@
 # Simple Snippet After Linux Installation
 
+# Generate SSH KEY
+`ssh-keygen -t ed25519 -C "YOUR_EMAIL"`
+
 ## Fix Corrupted install 
 `sudo dpkg --configure -a`
 ## Disable sleep
