@@ -2,7 +2,9 @@
 
 ## Fix Corrupted install 
 `sudo dpkg --configure -a`
-
+## Disable sleep
+- `sudo vi /etc/default/acpi-support # and then set SUSPEND_METHODS="none"`
+- `sudo /etc/init.d/acpid restart`
 ## Remove Bad SOftware
 `sudo apt-get remove --purge package_name`
 ## Add Video background Terminal
