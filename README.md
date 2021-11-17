@@ -1,6 +1,12 @@
 # Simple Snippet After Linux Installation
+## npm Install
+`sudo apt install npm`
 
-# Generate SSH KEY
+## SciFi Terminal
+- https://github.com/GitSquared/edex-ui#how-do-i-get-it
+- https://github.com/GitSquared/edex-ui/releases
+
+## Generate SSH KEY
 `ssh-keygen -t ed25519 -C "YOUR_EMAIL"`
 
 ## Fix Corrupted install 
