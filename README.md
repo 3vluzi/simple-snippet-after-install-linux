@@ -6,6 +6,13 @@
 - https://github.com/GitSquared/edex-ui#how-do-i-get-it
 - https://github.com/GitSquared/edex-ui/releases
 
+- `wget -c https://github.com/GitSquared/edex-ui/releases/download/v2.2.2/eDEX-UI.Linux.x86_64.AppImage`	[64-Bit]
+- `wget -c https://github.com/GitSquared/edex-ui/releases/download/v2.2.2/eDEX-UI.Linux.i386.AppImage`	[32-Bit]
+
+- `chmod +x eDEX-UI.Linux.x86_64.AppImage`
+- `./eDEX-UI.Linux.x86_64.AppImage`
+
+
 ## Generate SSH KEY
 `ssh-keygen -t ed25519 -C "YOUR_EMAIL"`
 
