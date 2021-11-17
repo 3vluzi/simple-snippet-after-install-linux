@@ -165,3 +165,6 @@ https://github.com/shiftkey/desktop/tree/release-2.9.4-linux1
 
 - Etcher Bootable USB Maker
 https://www.balena.io/etcher/
+
+-TypeFX Python
+https://github.com/urbanware-org/typefx/blob/main/python3/typefx.py
