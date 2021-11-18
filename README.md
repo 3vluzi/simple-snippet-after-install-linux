@@ -166,5 +166,17 @@ https://github.com/shiftkey/desktop/tree/release-2.9.4-linux1
 - Etcher Bootable USB Maker
 https://www.balena.io/etcher/
 
--TypeFX Python
+# FUN
+## EDEX-UI
+https://github.com/GitSquared/edex-ui/releases
+
+## TypeFX Python
 https://github.com/urbanware-org/typefx/blob/main/python3/typefx.py
+
+## Sneaker Effect https://github.com/bartobri/no-more-secrets
+- `cat namafile.txt | nms
+`
+## hollywood effect 
+- `sudo apt-add-repository ppa:hollywood/ppa`
+- `sudo apt update`
+- `sudo apt install byobu hollywood`
