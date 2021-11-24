@@ -180,3 +180,8 @@ https://github.com/urbanware-org/typefx/blob/main/python3/typefx.py
 - `sudo apt-add-repository ppa:hollywood/ppa`
 - `sudo apt update`
 - `sudo apt install byobu hollywood`
+
+# Tricks
+## list folder contents recursively and print to file
+- `find .  > list.txt` #all filename
+- `find . -type f -name "*.jpg" > list-jpg.txt` #filter only jpg file
